@@ -1,0 +1,60 @@
+2021-01-13 12:15:25,180 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-01-13 12:15:25,197 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\JMeter 5.4\bin\user.properties
+2021-01-13 12:15:25,197 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\JMeter 5.4\bin\system.properties
+2021-01-13 12:15:25,201 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2021-01-13 12:15:25,201 INFO o.a.j.JMeter: Version 5.4
+2021-01-13 12:15:25,201 INFO o.a.j.JMeter: java.version=14.0.2
+2021-01-13 12:15:25,201 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2021-01-13 12:15:25,202 INFO o.a.j.JMeter: os.name=Windows 10
+2021-01-13 12:15:25,202 INFO o.a.j.JMeter: os.arch=amd64
+2021-01-13 12:15:25,202 INFO o.a.j.JMeter: os.version=10.0
+2021-01-13 12:15:25,202 INFO o.a.j.JMeter: file.encoding=Cp1252
+2021-01-13 12:15:25,202 INFO o.a.j.JMeter: java.awt.headless=true
+2021-01-13 12:15:25,202 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-01-13 12:15:25,202 INFO o.a.j.JMeter: Available Processors =12
+2021-01-13 12:15:25,208 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-01-13 12:15:25,209 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-01-13 12:15:25,209 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\JMeter 5.4
+2021-01-13 12:15:25,209 INFO o.a.j.JMeter: user.dir  =C:\Users\jason\jmeter-workspace\Blaze_Load
+2021-01-13 12:15:25,209 INFO o.a.j.JMeter: PWD       =C:\Users\jason\jmeter-workspace\Blaze_Load
+2021-01-13 12:15:25,236 INFO o.a.j.JMeter: IP: 192.168.0.32 Name: DESKTOP-E9V0AFF FullName: 192.168.0.32
+2021-01-13 12:15:25,240 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\jason\jmeter-workspace\Blaze_Load\HTML_Reports'
+2021-01-13 12:15:25,241 INFO o.a.j.s.FileServer: Default base='C:\Users\jason\jmeter-workspace\Blaze_Load'
+2021-01-13 12:15:25,242 INFO o.a.j.s.FileServer: Set new base='C:\Users\jason\jmeter-workspace\Blaze_Load'
+2021-01-13 12:15:25,320 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-01-13 12:15:25,333 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-01-13 12:15:25,335 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-01-13 12:15:25,337 INFO o.a.j.s.SaveService: Loading file: Blaze_Load.jmx
+2021-01-13 12:15:25,368 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-13 12:15:25,368 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-13 12:15:25,368 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-13 12:15:25,368 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-13 12:15:25,368 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-01-13 12:15:25,368 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-01-13 12:15:25,378 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-01-13 12:15:25,384 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-01-13 12:15:25,384 ERROR o.a.j.JMeter: Error in NonGUIDriver
+java.lang.IllegalArgumentException: Results file:C:\Users\jason\jmeter-workspace\Blaze_Load\Reports\reports.csv is not empty
+	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:136) ~[ApacheJMeter_core.jar:5.4]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1076) [ApacheJMeter_core.jar:5.4]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:1007) [ApacheJMeter_core.jar:5.4]
+	at org.apache.jmeter.JMeter.start(JMeter.java:579) [ApacheJMeter_core.jar:5.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:254) [ApacheJMeter.jar:5.4]
+2021-01-13 12:15:25,390 ERROR o.a.j.JMeter: An error occurred: 
+org.apache.jmeter.report.config.ConfigurationException: Error in NonGUIDriver Results file:C:\Users\jason\jmeter-workspace\Blaze_Load\Reports\reports.csv is not empty
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1118) ~[ApacheJMeter_core.jar:5.4]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:1007) ~[ApacheJMeter_core.jar:5.4]
+	at org.apache.jmeter.JMeter.start(JMeter.java:579) [ApacheJMeter_core.jar:5.4]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:254) [ApacheJMeter.jar:5.4]
+Caused by: java.lang.IllegalArgumentException: Results file:C:\Users\jason\jmeter-workspace\Blaze_Load\Reports\reports.csv is not empty
+	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:136) ~[ApacheJMeter_core.jar:5.4]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1076) ~[ApacheJMeter_core.jar:5.4]
+	... 7 more

@@ -1,0 +1,1 @@
+jmeter -f -n -t "C:\Users\jason\jmeter-workspace\Blazedemo_Testing\Blazedemo.jmx" -l "C:\Users\jason\jmeter-workspace\Blazedemo_Testing\csv\reports.csv" -e -o "C:\Users\jason\jmeter-workspace\Blazedemo_Testing\html"
